@@ -1,0 +1,139 @@
+
+/* Profile.css (create a new CSS file or add to your existing stylesheet) */
+
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid ivory;
+    border-radius: 8px;
+    background-color: ivory;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  /* Bio Section */
+  .bio-section {
+    margin-bottom: 20px;
+  }
+  
+  .bio-section p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid ivory;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: beige;
+    color: burlywood;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* User Posts Section */
+  .user-posts {
+    margin-top: 20px;
+  }
+  
+  .user-post {
+    padding: 10px;
+    border: 1px solid beige;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* Total Likes Received Section */
+  .total-likes {
+    margin-top: 20px;
+    color: gainsboro;
+  }
+  .profile-picture {
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    max-width: 100%;
+    height: auto; /* Ensure the aspect ratio of the image is maintained */
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+.mainprofile-container {
+    text-align: center;
+    padding: 10px;
+    max-width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+}
+  
+.profile-container {
+    margin-top: 100px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    max-width: 1000px;
+    display: flex;
+}
+  
+.profile-img {
+    text-align: left;
+    margin: 20px;
+    padding: 0;
+}
+  
+.profile-img img {
+    border: 1px solid;
+    border-radius: 50%;
+    max-width: 100px;
+}
+  
+.profile-content {
+    display: flex;
+    flex-direction: column; 
+    flex: 1;
+}
+  
+.profile-info {
+    display: flex;
+    margin-top: 40px;
+}
+  
+.profile-info p {
+    font-size: 15px;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 400;
+    padding-right: 100px;
+}
+
+.username {
+    margin-right: 80px;
+}
+  
+.profile-bio {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 0;
+    width: 500px;
+}
+  
+.profile-bio p {
+    padding-left: 10px;
+}
+  
+.button {
+    margin: 10px;
+}
